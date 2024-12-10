@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "data-sage"
+version = "0.1.0"
+description = "Data-Sage is an AI-powered assistant for seamless data exploration and analysis. It supports Text-to-SQL for most RDBMS, query execution, chart generation, and execution plan explanations. Built with LangGraph and AI agents, it transforms natural language into actionable insights effortlessly."
+authors = ["Allwyn Jesu <allwynit@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.10"
+langchain-community = "^0.3.10"
+langgraph = "^0.2.56"
+langchain-openai = "^0.2.12"
+black = "^24.10.0"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.3"
+streamlit = "^1.40.2"
+psycopg2-binary = "^2.9.10"
+altair = "^5.5.0"
+mysql-connector-python = "^9.1.0"
+atomic = "^0.7.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,10 @@
+{
+    "host": "localhost",
+    "port": 5432,
+    "username": "user",
+    "pwd": "password",
+    "database": "example_db",
+    "dialect": "postgresql",
+    "name": "NewDataSource",
+    "id": 5
+}
